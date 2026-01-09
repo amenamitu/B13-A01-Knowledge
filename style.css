@@ -47,7 +47,10 @@ nav .menu a{
     background-position: center;
     background-size: cover;
 }
-
+.linear{
+     background: rgba(0,0,0,0.55);
+     opacity: 0.7;
+}
 .banner-content{
   text-align: center;
   padding: 154px 341px;
@@ -74,9 +77,9 @@ nav .menu a{
     margin-bottom: 16px;
 }
 .btn-1{
- padding: 12px 16px;
- border-radius: 5px;
- cursor: pointer;
+ background-color: transparent;
+ color: #ffffff;
+ border: 1px solid #FFFFFF;
 }
 /* card section style */
 #card-section{
@@ -107,16 +110,17 @@ nav .menu a{
      border-radius: 8px;
      text-align: center;
 }
-.card img{
+.card-img{
     background-color: #F95555;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding:12px;
+    margin-left: 60px;
     margin-bottom: 16px;
-    
 }
 .card h3{
-    font-size: 24px;
+    font-size: 20px;
     color: #001931;
     margin-bottom: 16px;
 }
@@ -125,6 +129,7 @@ nav .menu a{
     font-size: 10px;
     margin-bottom: 16px;
 } 
+/* About style */
 .about{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -155,4 +160,49 @@ nav .menu a{
 .about-content ul li img{
     margin-top: 5px;
 }
-
+/* Information style */
+.information{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px;
+}
+.information h2{
+    font-size: 40px;
+    color: #001931;
+}
+.information p{
+    color: #627382;
+    line-height: 24px;
+    margin:16px 0;
+}
+/* Footer-section style */
+.footer-section{
+    margin-top: 130px;
+    background-color:#130f40;
+    padding: 120px 120px 30px 120px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.footer-content p{
+    color: #F7F6F2;
+}
+.footer-content i{
+    background-color: #F7F6F2;
+    border-radius: 50px;
+}
+.line {
+  height: 1px;
+  background-color: #747473;
+  margin: 30px 0;
+}
+ .footer-section p{
+    color: #F7F6F2;
+    text-align: center;
+}
+button:hover{
+    background-color: #F95555;
+}
