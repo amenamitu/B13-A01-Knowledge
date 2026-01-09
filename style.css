@@ -125,3 +125,34 @@ nav .menu a{
     font-size: 10px;
     margin-bottom: 16px;
 } 
+.about{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+} 
+.about-content span{
+    color: #30B868;
+}
+.about-content h1{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.about-content p{
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.about-content ul li{
+    list-style: none;
+    line-height: 20px;
+    color: #001931;
+}
+.about-content ul li img{
+    margin-top: 5px;
+}
+
