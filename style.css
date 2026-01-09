@@ -78,3 +78,50 @@ nav .menu a{
  border-radius: 5px;
  cursor: pointer;
 }
+/* card section style */
+#card-section{
+    padding-top: 130px;
+}
+.section-heading{
+  text-align: center;
+}
+.section-heading h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.section-heading p{
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+ #card-section .card-container .cards{
+    display: flex;
+    gap: 24px;
+} 
+
+ .cards .card{
+    padding: 30px;
+     background-color: #FFFFFF;
+     box-shadow: 0 0 8px 0  rgba(0, 0, 0, 0.06);
+     border-radius: 8px;
+     text-align: center;
+}
+.card img{
+    background-color: #F95555;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    
+}
+.card h3{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card p{
+    color: #627382;
+    font-size: 10px;
+    margin-bottom: 16px;
+} 
