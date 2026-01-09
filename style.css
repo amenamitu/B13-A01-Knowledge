@@ -41,3 +41,40 @@ nav .menu a{
     color: #FFFFFF;
     cursor: pointer;
 }
+/* Banner style */
+#banner{
+    background-image: url("assets/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-content{
+  text-align: center;
+  padding: 154px 341px;
+}
+.early{
+    background: #FFFFFF;
+    color: #30B868;
+    width: 229px;
+    margin: 0 auto;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+}
+#banner h1{
+    font-size: 72px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+#banner h1 span{
+    color: #30B868;
+}
+#banner p{
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.btn-1{
+ padding: 12px 16px;
+ border-radius: 5px;
+ cursor: pointer;
+}
